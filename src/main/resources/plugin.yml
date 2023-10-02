@@ -1,0 +1,8 @@
+name: GameEngine
+version: '${project.version}'
+main: me.simonfoy.gameengine.GameEngine
+api-version: '1.20'
+commands:
+  game:
+    description: Switch game types.
+    usage: /<command> <gameType>
